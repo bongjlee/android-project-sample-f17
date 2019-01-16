@@ -26,7 +26,7 @@ public class PostActivity extends AppCompatActivity {
     public void submitChatt(View view) {
         RequestQueue queue = Volley.newRequestQueue(this);
 
-        String url = "http://159.203.172.151/addchatt/";
+        String url = "http://159.89.181.188/addchatt/";
         TextView usernameTextView = (TextView) findViewById(R.id.usernameTextView);
         TextView messageTextView = (TextView) findViewById(R.id.messageEditText);
         String username = usernameTextView.getText().toString();
